@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="dHub">
+    <output-path>$PROJECT_DIR$/../../Compiled</output-path>
+    <root id="archive" name="dHub.jar">
+      <element id="module-output" name="dHub" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/lombok.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/2.11.0/mongo-java-driver-2.11.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

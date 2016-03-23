@@ -1,0 +1,5 @@
+name: dHub
+main: com.dreamz.dhub.dHub
+version: 0.0.1
+depend: [InSigns, Vault, AnimationLib]
+author: Young
