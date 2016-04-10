@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4ee3df1-900d-45c6-a0c2-207724b441b3" name="Default" comment="Fixed major exploits.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dreamz/dhub/dHub.java" afterPath="$PROJECT_DIR$/src/com/dreamz/dhub/dHub.java" />
+    <list default="true" id="c4ee3df1-900d-45c6-a0c2-207724b441b3" name="Default" comment="Players now become invisible if you hit them.&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dreamz/dhub/listeners/GadgetListeners.java" afterPath="$PROJECT_DIR$/src/com/dreamz/dhub/listeners/GadgetListeners.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dreamz/dhub/listeners/PlayerListeners.java" afterPath="$PROJECT_DIR$/src/com/dreamz/dhub/listeners/PlayerListeners.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/plugin.yml" afterPath="$PROJECT_DIR$/src/plugin.yml" />
+    </list>
+    <list id="4add0c02-d443-48a5-8a44-887452693b16" name="Optional" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/dreamz/dhub/listeners/PlayerListeners.class" afterPath="$PROJECT_DIR$/target/classes/com/dreamz/dhub/listeners/PlayerListeners.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sparrow.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/target/classes/com/dreamz/dhub/listeners/PlayerListeners.class" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,16 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="87" column="18" selection-start-line="86" selection-start-column="0" selection-end-line="90" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#3940#3941#0" expanded="false" />
+                <element signature="e#3971#3972#0" expanded="false" />
+                <element signature="e#3996#3997#0" expanded="false" />
+                <element signature="e#4027#4028#0" expanded="false" />
+                <element signature="e#4074#4075#0" expanded="false" />
+                <element signature="e#4110#4111#0" expanded="false" />
+                <element signature="e#4152#4153#0" expanded="false" />
+                <element signature="e#4186#4187#0" expanded="false" />
+                <element signature="e#4226#4227#0" expanded="false" />
+                <element signature="e#4258#4259#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -64,7 +78,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1897#1898#0" expanded="false" />
+                <element signature="e#1961#1962#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +91,10 @@
         <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/server/ServerManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="42" />
-              <folding />
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,10 +102,12 @@
       <file leaf-file-name="PlayerListeners.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/listeners/PlayerListeners.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.655615">
-              <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+            <state vertical-scroll-proportion="1.2822385">
+              <caret line="168" column="132" selection-start-line="168" selection-start-column="132" selection-end-line="168" selection-end-column="132" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6267#6268#0" expanded="true" />
+                <element signature="e#6303#6304#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,7 +118,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="134" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#408#409#0" expanded="false" />
+                <element signature="e#456#457#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,7 +132,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="189" column="9" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/listeners/GadgetListeners.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -131,6 +159,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Young &lt;youngexplicitpvp@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -178,17 +211,17 @@
         <option value="$PROJECT_DIR$/src/com/dreamz/dhub/utils/GMHook.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/com/dreamz/dhub/listeners/GuiListeners.java" />
-        <option value="$PROJECT_DIR$/src/com/dreamz/dhub/server/ServerManager.java" />
         <option value="$PROJECT_DIR$/src/com/dreamz/dhub/server/Server.java" />
         <option value="$PROJECT_DIR$/src/com/dreamz/dhub/utils/PlayerUtility.java" />
         <option value="$PROJECT_DIR$/src/config.yml" />
         <option value="$PROJECT_DIR$/src/com/dreamz/dhub/listeners/ServerListeners.java" />
-        <option value="$PROJECT_DIR$/src/com/dreamz/dhub/listeners/GadgetListeners.java" />
         <option value="$PROJECT_DIR$/src/com/dreamz/dhub/server/ServerQueue.java" />
         <option value="$PROJECT_DIR$/src/com/dreamz/dhub/dHub.java" />
         <option value="$PROJECT_DIR$/src/com/dreamz/dhub/commands/dHubCommand.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
         <option value="$PROJECT_DIR$/src/com/dreamz/dhub/utils/Human.java" />
+        <option value="$PROJECT_DIR$/src/com/dreamz/dhub/server/ServerManager.java" />
+        <option value="$PROJECT_DIR$/src/com/dreamz/dhub/listeners/GadgetListeners.java" />
         <option value="$PROJECT_DIR$/src/com/dreamz/dhub/listeners/PlayerListeners.java" />
       </list>
     </option>
@@ -236,6 +269,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,8 +390,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +397,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/C J/Desktop/Development/Sparrow/src/com/breakmc/sparrow/listeners/PlayerListeners.java" />
@@ -659,6 +692,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c4ee3df1-900d-45c6-a0c2-207724b441b3" name="Default" comment="" />
+      <changelist id="4add0c02-d443-48a5-8a44-887452693b16" name="Optional" comment="" />
       <created>1450554712871</created>
       <option name="number" value="Default" />
       <updated>1450554712871</updated>
@@ -693,7 +727,19 @@
       <option name="project" value="LOCAL" />
       <updated>1458288255112</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Players now become invisible if you hit them.">
+      <created>1460260422280</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1460260422280</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Players now become invisible if you hit them.&#10;">
+      <created>1460260672561</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1460260672561</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -702,7 +748,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5435685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5441329" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -710,7 +756,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IntelliGuard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14443219" sideWeight="0.9231568" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -742,7 +788,9 @@
     <MESSAGE value="Added Server Command" />
     <MESSAGE value="Normals can no longer join after player count surpasses max player count." />
     <MESSAGE value="Fixed major exploits." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed major exploits." />
+    <MESSAGE value="Players now become invisible if you hit them." />
+    <MESSAGE value="Players now become invisible if you hit them.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Players now become invisible if you hit them.&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -756,12 +804,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/listeners/GadgetListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/dHub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="173" column="8" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="false" />
+            <element signature="e#3971#3972#0" expanded="false" />
+            <element signature="e#3996#3997#0" expanded="false" />
+            <element signature="e#4027#4028#0" expanded="false" />
+            <element signature="e#4074#4075#0" expanded="false" />
+            <element signature="e#4110#4111#0" expanded="false" />
+            <element signature="e#4152#4153#0" expanded="false" />
+            <element signature="e#4186#4187#0" expanded="false" />
+            <element signature="e#4226#4227#0" expanded="false" />
+            <element signature="e#4258#4259#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -770,7 +835,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -807,7 +874,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="false" />
+            <element signature="e#3971#3972#0" expanded="false" />
+            <element signature="e#3996#3997#0" expanded="false" />
+            <element signature="e#4027#4028#0" expanded="false" />
+            <element signature="e#4074#4075#0" expanded="false" />
+            <element signature="e#4110#4111#0" expanded="false" />
+            <element signature="e#4152#4153#0" expanded="false" />
+            <element signature="e#4186#4187#0" expanded="false" />
+            <element signature="e#4226#4227#0" expanded="false" />
+            <element signature="e#4258#4259#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -831,7 +907,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="false" />
+            <element signature="e#3971#3972#0" expanded="false" />
+            <element signature="e#3996#3997#0" expanded="false" />
+            <element signature="e#4027#4028#0" expanded="false" />
+            <element signature="e#4074#4075#0" expanded="false" />
+            <element signature="e#4110#4111#0" expanded="false" />
+            <element signature="e#4152#4153#0" expanded="false" />
+            <element signature="e#4186#4187#0" expanded="false" />
+            <element signature="e#4226#4227#0" expanded="false" />
+            <element signature="e#4258#4259#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -848,7 +933,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="false" />
+            <element signature="e#3971#3972#0" expanded="false" />
+            <element signature="e#3996#3997#0" expanded="false" />
+            <element signature="e#4027#4028#0" expanded="false" />
+            <element signature="e#4074#4075#0" expanded="false" />
+            <element signature="e#4110#4111#0" expanded="false" />
+            <element signature="e#4152#4153#0" expanded="false" />
+            <element signature="e#4186#4187#0" expanded="false" />
+            <element signature="e#4226#4227#0" expanded="false" />
+            <element signature="e#4258#4259#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -865,7 +959,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="false" />
+            <element signature="e#3971#3972#0" expanded="false" />
+            <element signature="e#3996#3997#0" expanded="false" />
+            <element signature="e#4027#4028#0" expanded="false" />
+            <element signature="e#4074#4075#0" expanded="false" />
+            <element signature="e#4110#4111#0" expanded="false" />
+            <element signature="e#4152#4153#0" expanded="false" />
+            <element signature="e#4186#4187#0" expanded="false" />
+            <element signature="e#4226#4227#0" expanded="false" />
+            <element signature="e#4258#4259#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,7 +985,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="false" />
+            <element signature="e#3971#3972#0" expanded="false" />
+            <element signature="e#3996#3997#0" expanded="false" />
+            <element signature="e#4027#4028#0" expanded="false" />
+            <element signature="e#4074#4075#0" expanded="false" />
+            <element signature="e#4110#4111#0" expanded="false" />
+            <element signature="e#4152#4153#0" expanded="false" />
+            <element signature="e#4186#4187#0" expanded="false" />
+            <element signature="e#4226#4227#0" expanded="false" />
+            <element signature="e#4258#4259#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1062,14 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/listeners/GadgetListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1078,19 +1182,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/server/ServerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1897#1898#0" expanded="false" />
+            <element signature="e#1961#1962#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/utils/PlayerUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#408#409#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/dHub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="18" selection-start-line="86" selection-start-column="0" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="e#3940#3941#0" expanded="false" />
+            <element signature="e#3971#3972#0" expanded="false" />
+            <element signature="e#3996#3997#0" expanded="false" />
+            <element signature="e#4027#4028#0" expanded="false" />
+            <element signature="e#4074#4075#0" expanded="false" />
+            <element signature="e#4110#4111#0" expanded="false" />
+            <element signature="e#4152#4153#0" expanded="false" />
+            <element signature="e#4186#4187#0" expanded="false" />
+            <element signature="e#4226#4227#0" expanded="false" />
+            <element signature="e#4258#4259#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/listeners/ServerListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="189" column="9" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,38 +1243,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/utils/PlayerUtility.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/server/ServerManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="134" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/dHub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="18" selection-start-line="86" selection-start-column="0" selection-end-line="90" selection-end-column="5" />
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/listeners/ServerListeners.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/listeners/GadgetListeners.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="189" column="9" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dreamz/dhub/listeners/PlayerListeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.655615">
-          <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+        <state vertical-scroll-proportion="1.2822385">
+          <caret line="168" column="132" selection-start-line="168" selection-start-column="132" selection-end-line="168" selection-end-column="132" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6267#6268#0" expanded="true" />
+            <element signature="e#6303#6304#0" expanded="true" />
           </folding>
         </state>
       </provider>
