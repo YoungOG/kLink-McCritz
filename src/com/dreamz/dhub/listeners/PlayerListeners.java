@@ -166,7 +166,8 @@ public class PlayerListeners implements Listener {
                     Player hitter = (Player) e.getDamager();
 
                     if (!main.getInHubList().contains(hitter.getUniqueId())) {
-                        //Where I fucked with packets. It already contains the valid checks.
+                        hitter.hidePlayer(hit);
+                        MessageManager.sendMessage(hitter, "&7Hidden player &r" + hit.getDisplayName() + "&7.");
                     }
                 }
             }
